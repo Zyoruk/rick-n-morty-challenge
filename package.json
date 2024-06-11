@@ -9,5 +9,13 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev:api": "yarn workspace api run dev",
+    "dev:ui": "yarn workspace ricknmorty-ui run dev",
+    "dev": "concurrently \"npm:dev:api\" \"npm:dev:ui\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
 }
