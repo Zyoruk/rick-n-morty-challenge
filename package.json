@@ -1,0 +1,13 @@
+{
+  "name": "rick-n-morty-challenge",
+  "version": "1.0.0",
+  "description": "Simple fullstack challenge",
+  "main": "index.js",
+  "repository": "https://github.com/Zyoruk/rick-n-morty-challenge",
+  "author": "Luis Simon <ce.zyoruk@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
